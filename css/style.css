@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #a084dc;
+  color: #222;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+  font-family: "Great Vibes", cursive;
+  color: #ffff;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.temperature-converter {
+  background: #ecebeb;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 25px 20px;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+}
+.result {
+  text-align: center;
+  margin: 20px 0;
+}
+.result-heading {
+  color: #555;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.celsius-value {
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+label {
+  color: #555;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+input,
+select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+input:focus {
+  border: 1px solid #645cbb;
+  border-radius: 20px;
+}
+.temperature-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.temperature-field,
+.temp-field {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+option {
+  background-color: #645cbb;
+  color: #f6f6f6;
+}
+#convert-btn {
+  background: linear-gradient(to bottom, #a084dc, #645cbb);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: #f6f6f6;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 12px 80px;
+  transition: all 0.3s ease-in;
+}
+
+#convert-btn:hover {
+  background: linear-gradient(to bottom, #4a47e7, #322fda);
+}
+
+/* copyright by kanika */

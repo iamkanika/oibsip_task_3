@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TempTeller 🌡
+    </title>
+</head>
+
+<body>
+    <div>
+        <!-- navbar -->
+        <div class="navbar title">
+            TempTeller 🌡
+        </div>
+        <div class="temperature-converter">
+            <div class="result">
+                <!-- result showing part -->
+                <span class="result-heading">Result</span>
+                <h2 id="result-value"></h2>
+            </div>
+            <div class="temperature-part">
+                <div class="temperature-field">
+                    <!-- temperature enter value -->
+                    <label for="temperature">Temperature</label>
+                    <input type="number" name="temperature-value" id="temperature-value" />
+                </div>
+                <div class="temp-field">
+                    <!-- temperature type C or F -->
+                    <label for="temp-type">Type</label>
+                    <select name="temperatures" id="temp-type" autocomplete="on">
+                        <option id="fahrenheit" value="fahrenheit">Fahrenheit</option>
+                        <option id="celsius" value="celsius">Celsius</option>
+                    </select>
+                </div>
+            </div>
+            <!-- convert button -->
+            <button id="convert-btn kanika">Convert</button>
+        </div>
+    </div>
+    <!-- JS Files -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
